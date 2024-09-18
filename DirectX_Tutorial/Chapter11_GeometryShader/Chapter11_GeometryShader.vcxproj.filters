@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GeometryGenerator.cpp" />
+    <ClCompile Include="LightHelper.cpp" />
+    <ClCompile Include="MathHelper.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+    <ClCompile Include="Waves.cpp" />
+    <ClCompile Include="Effects.cpp" />
+    <ClCompile Include="RenderStates.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\Basic.FX" />
+    <FxCompile Include="Shader\TreeSprite.fx" />
+    <FxCompile Include="Shader\LightingHelper.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="GeometryGenerator.h" />
+    <ClInclude Include="LightHelper.h" />
+    <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="Waves.h" />
+    <ClInclude Include="Effects.h" />
+    <ClInclude Include="RenderStates.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\grass.dds" />
+    <Image Include="Textures\water1.dds" />
+    <Image Include="Textures\water2.dds" />
+    <Image Include="Textures\WireFence.dds" />
+    <Image Include="Textures\WoodCrate01.dds" />
+    <Image Include="Textures\WoodCrate02.dds" />
+    <Image Include="Textures\checkboard.dds" />
+    <Image Include="Textures\tree0.dds" />
+    <Image Include="Textures\tree1.dds" />
+    <Image Include="Textures\tree2.dds" />
+    <Image Include="Textures\tree3.dds" />
+  </ItemGroup>
+</Project>
